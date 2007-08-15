@@ -1,5 +1,5 @@
 %define name    perltidy
-%define version 20070508
+%define version 20070801
 %define release %mkrel 1
 
 Name:           %{name}
