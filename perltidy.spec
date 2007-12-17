@@ -12,7 +12,6 @@ Source:         http://prdownloads.sourceforge.net/perltidy/Perl-Tidy-%{version}
 URL:            http://perltidy.sourceforge.net
 BuildRequires:  perl-devel
 BuildArch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 Perltidy is a Perl script which indents and reformats Perl scripts to
