@@ -1,6 +1,6 @@
 %define name    perltidy
-%define version 20071205
-%define release %mkrel 4
+%define version 20090616
+%define release %mkrel 1
 
 Name:           %{name}
 Version:        %{version}
@@ -8,7 +8,7 @@ Release:        %{release}
 Summary:        Script which indents and reformats Perl script
 License:        GPL
 Group:          Text tools
-Source:         http://prdownloads.sourceforge.net/perltidy/Perl-Tidy-%{version}.tar.bz2
+Source:         http://prdownloads.sourceforge.net/perltidy/Perl-Tidy-%{version}.tar.gz
 URL:            http://perltidy.sourceforge.net
 BuildRequires:  perl-devel
 BuildArch:      noarch
@@ -22,7 +22,7 @@ reading them, you will probably find it useful.
 %prep
 %setup -q -n Perl-Tidy-%version
 # fix  perms
-chmod -R go=u-w *
+#chmod -R go=u-w *
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
