@@ -1,7 +1,7 @@
 Summary:	Script which indents and reformats Perl script
 Name:		perltidy
 Version:	20101217
-Release:	4
+Release:	5
 License:	GPLv2
 Group:		Text tools
 Url:		http://perltidy.sourceforge.net
