@@ -1,2 +1,4 @@
+removed_sources:
+  Perl-Tidy-20101217.tar.gz: d9efd9bd29403fcda7d6f1667b0b0bdd62d8d744
 sources:
-  "Perl-Tidy-20101217.tar.gz": d9efd9bd29403fcda7d6f1667b0b0bdd62d8d744
+  Perl-Tidy-20170521.tar.gz: 4a564dd7505f10afcc211427b4bfe1889551f25d
