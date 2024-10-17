@@ -4,7 +4,7 @@ Version:	20170521
 Release:	3
 License:	GPLv2
 Group:		Text tools
-Url:		http://perltidy.sourceforge.net
+Url:		https://perltidy.sourceforge.net
 Source0:	http://prdownloads.sourceforge.net/perltidy/Perl-Tidy-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
