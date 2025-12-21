@@ -7,6 +7,7 @@ Group:		Text tools
 Url:		https://perltidy.sourceforge.net
 Source0:	http://prdownloads.sourceforge.net/perltidy/Perl-Tidy-%{version}.tar.gz
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	perl-devel
 
 %description
